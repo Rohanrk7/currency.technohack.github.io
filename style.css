@@ -1,0 +1,37 @@
+.rk1 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9);
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    background-color: transparent;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: silver;
+    backdrop-filter: blur(2px);
+  }
+  button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: rgb(230, 224, 224);
+   background-color: transparent;
+    text-align: center;
+    cursor: pointer;
+    width: fit-content;
+    font-size: 18px;
+   border-radius: 15%;
+   border: solid white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    backdrop-filter: blur(2px);
+  }
+  button:hover, a:hover {
+    opacity: 0.7;
+  }
+
+  body{
+    
+        background-image:url(bkg.jpg);
+        background-repeat: no-repeat;
+       background-size: cover;
+      }
